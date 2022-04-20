@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Meta Data -->
+    <meta charset="utf-8">
+    <meta name="description" content="Volume of a Sphere">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Emma Janani">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
+    <link rel="manifest" href="./fav_index/site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Converting Celsius to Fahrenheit in JS</title>
+  </head>
+  <body>
+    <center>
+      <script src="./js/script.js"></script>
+      <h1>Converting Celsius to Fahrenheit in JS</h1>
+      <!-- Formula of Sphere and Calculations -->    
+      <img src="./images/fahrenheit_to_celsius_formulas.png" width="300">
+      <h3>Please enter the temperature in Celsius below:</h3>
+      <form action="javascript:calculateTemperature()">
+        <label for="celsius">Temperautre (in degrees Celsius):</label>
+        <input type="number" step="any" id="celsius" placeholder="Temperature in Celsius"><br><br>
+        <input type="submit" value="Calculate">
+      </form>
+      
+    	<!-- Create a space where the user information will be displayed -->
+    	<div id="results">
+    	</div>
+    </center>
+  </body>
+</html>

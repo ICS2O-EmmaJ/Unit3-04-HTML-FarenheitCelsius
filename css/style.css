@@ -1,0 +1,23 @@
+/* Created by: Emma Janani
+* Created on: April 2022
+* This CSS file defines the style for index.html
+* ICS2O-Unit3-04-HTML-FahrenheitCelcius
+*/
+
+body {
+	background-color: #ffc0ba;
+}
+
+h1 {
+	background-color: #e69f9a;
+	color: black;
+	padding: 40px;
+	text-align: center;
+}
+
+div {
+  font-weight: bold;
+  color: black;
+  margin: 5px;
+}
+
